@@ -1,0 +1,44 @@
+{
+  "page": 1,
+  "perPage": 30,
+  "totalItems": 4,
+  "totalPages": 1,
+  "items": [
+    {
+      "collectionId": "aldsklqmwmllf2ff",
+      "collectionName": "products",
+      "created": "2024-01-16 02:22:34.675Z",
+      "id": "asmdlmalg23mlm",
+      "name": "watch",
+      "price": 40,
+      "updated": "2024-01-16 02:22:34.675Z"
+    },
+    {
+      "collectionId": "aldsklqmwmllf2ff",
+      "collectionName": "products",
+      "created": "2024-01-16 02:22:34.675Z",
+      "id": "asmdl3322fffas",
+      "name": "monitor",
+      "price": 200,
+      "updated": "2024-01-16 02:22:34.675Z"
+    },
+    {
+      "collectionId": "aldsklqmwmllf2ff",
+      "collectionName": "products",
+      "created": "2024-01-16 02:22:34.675Z",
+      "id": "sdfggmalg23mlm",
+      "name": "phone",
+      "price": 90,
+      "updated": "2024-01-16 02:22:34.675Z"
+    },
+    {
+      "collectionId": "aldsklqmwmllf2ff",
+      "collectionName": "products",
+      "created": "2024-01-16 02:22:34.675Z",
+      "id": "asmdlm234gdggh",
+      "name": "pad",
+      "price": 50,
+      "updated": "2024-01-16 02:22:34.675Z"
+    }
+  ]
+}
