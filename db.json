@@ -1,9 +1,5 @@
 {
-  "page": 1,
-  "perPage": 30,
-  "totalItems": 4,
-  "totalPages": 1,
-  "items": [
+  "products": [
     {
       "collectionId": "aldsklqmwmllf2ff",
       "collectionName": "products",
@@ -39,6 +35,44 @@
       "name": "pad",
       "price": 50,
       "updated": "2024-01-16 02:22:34.675Z"
+    }
+  ],
+  "users": [
+    {
+      "avatar": "",
+      "collectionId": "_pb_users_auth_",
+      "collectionName": "users",
+      "created": "2024-01-16 02:22:34.675Z",
+      "emailVisibility": false,
+      "id": "dsgrf43ttgsdf",
+      "name": "",
+      "updated": "2024-01-16 02:22:34.675Z",
+      "username": "user23555",
+      "verified": false
+    },
+    {
+      "avatar": "",
+      "collectionId": "_pb_users_auth_",
+      "collectionName": "users",
+      "created": "2024-01-16 02:22:34.675Z",
+      "emailVisibility": false,
+      "id": "alk3naw2eezc2",
+      "name": "",
+      "updated": "2024-01-16 02:22:34.675Z",
+      "username": "user23455",
+      "verified": false
+    },
+    {
+      "avatar": "",
+      "collectionId": "_pb_users_auth_",
+      "collectionName": "users",
+      "created": "2024-01-16 02:22:34.675Z",
+      "emailVisibility": false,
+      "id": "dalm42ffmla23",
+      "name": "",
+      "updated": "2024-01-16 02:22:34.675Z",
+      "username": "user24655",
+      "verified": false
     }
   ]
 }

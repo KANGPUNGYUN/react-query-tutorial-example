@@ -9,7 +9,7 @@ export function AxiosQuery() {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("./db.json")
+      .get("http://localhost:3000/products")
       .then((res) => {
         setData(res);
         setIsLoading(false);
@@ -29,7 +29,7 @@ export function AxiosQuery() {
       <div className="text-4xl">AxiosQuery</div>
       <ul className="list-disc p-4">
         {data &&
-          data.data?.items?.map((product) => (
+          data.data?.map((product) => (
             <li key={product.id}>
               {product.name} / {product.price}
             </li>
