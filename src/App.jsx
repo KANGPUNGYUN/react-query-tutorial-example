@@ -6,6 +6,8 @@ import { ReactQuery } from "./ReactQuery";
 import { ReactQueryDetails } from "./ReactQueryDetails";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { ParallelQuery } from "./ParallelQuery";
+import { DynamicParallelQueries } from "./DynamicParallelQueries";
+import { DepentQuery } from "./DepentQuery";
 
 function App() {
   return (
@@ -20,6 +22,18 @@ function App() {
             element={<ReactQueryDetails />}
           />
           <Route path="/parallel-query" element={<ParallelQuery />} />
+          <Route
+            path="/dynamic-parallel-queries"
+            element={
+              <DynamicParallelQueries
+                productIds={["asmdlmalg23mlm", "sdfggmalg23mlm"]}
+              />
+            }
+          />
+          <Route
+            path="/depent-query"
+            element={<DepentQuery userId="alk3naw2eezc2" />}
+          />
         </Route>
       </Routes>
       <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
