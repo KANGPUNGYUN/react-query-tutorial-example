@@ -3,8 +3,9 @@ import { useProductId } from "./hooks/useProductId";
 
 export function ReactQueryDetails() {
   const { productId } = useParams();
-  const { isLoading, isError, error, data } = useProductId(productId);
-  // console.log(data);
+  const { isLoading, isFetching, isError, error, data } =
+    useProductId(productId);
+  console.log({ isLoading, isFetching });
   if (isLoading) return <>Loading...</>;
   if (isError) return <>{error.message}</>;
 

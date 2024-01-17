@@ -7,7 +7,7 @@ import { ReactQueryDetails } from "./ReactQueryDetails";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { ParallelQuery } from "./ParallelQuery";
 import { DynamicParallelQueries } from "./DynamicParallelQueries";
-import { DepentQuery } from "./DepentQuery";
+import { DependentQuery } from "./DependentQuery";
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
           />
           <Route
             path="/depent-query"
-            element={<DepentQuery userId="alk3naw2eezc2" />}
+            element={<DependentQuery userId="alk3naw2eezc2" />}
           />
         </Route>
       </Routes>

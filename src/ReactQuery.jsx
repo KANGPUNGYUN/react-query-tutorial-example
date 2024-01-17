@@ -10,12 +10,12 @@ export function ReactQuery() {
     console.log("오류 발생 후 사이드 이펙트 수행", error);
   };
 
-  const { isLoading, isFetching, data, isError, error } = useProductName(
+  const { isLoading, data, isError, error } = useProductName(
     onSuccess,
     onError
   );
 
-  console.log({ isLoading, isFetching });
+  // console.log({ isLoading, isFetching });
 
   if (isLoading) return <>Loading...</>;
   if (isError) return <>{error.message}</>;
