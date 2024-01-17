@@ -1,7 +1,8 @@
 import { useQuery } from "react-query";
 import axios from "axios";
 
-export function DepentQuery({ userId }) {
+/** 이중 쿼리하는 방법(SQL에서 Scalar Subqueries, 즉, SELECT 절 안에 서브쿼리 방법과 비슷하다) */
+export function DependentQuery({ userId }) {
   function fetchUserById(userId) {
     return axios.get(`http://localhost:3000/users?id=${userId}`);
   }
