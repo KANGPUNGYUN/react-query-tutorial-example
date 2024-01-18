@@ -8,7 +8,8 @@ export function Header() {
       <Link to="/react-query">React Query</Link>
       <Link to="/parallel-query">Parallel Query</Link>
       <Link to="/dynamic-parallel-queries">Dynamic Parallel Queries</Link>
-      <Link to="/depent-query">Depent Query</Link>
+      <Link to="/dependent-query">Dependent Query</Link>
+      <Link to="/paginated-query">Paginated Query</Link>
     </nav>
   );
 }

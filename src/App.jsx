@@ -8,6 +8,8 @@ import { ReactQueryDevtools } from "react-query/devtools";
 import { ParallelQuery } from "./ParallelQuery";
 import { DynamicParallelQueries } from "./DynamicParallelQueries";
 import { DependentQuery } from "./DependentQuery";
+// import { PaginatedQuery } from "./PaginatedQuery"; // 기본 페이지네이션 & 무한 스크롤 페이지네이션 방법
+import { PaginatedQuery2 } from "./PaginatedQuery2"; // Intersection Observer를 활용한 무한스크롤
 
 function App() {
   return (
@@ -31,9 +33,10 @@ function App() {
             }
           />
           <Route
-            path="/depent-query"
+            path="/dependent-query"
             element={<DependentQuery userId="alk3naw2eezc2" />}
           />
+          <Route path="/paginated-query" element={<PaginatedQuery2 />} />
         </Route>
       </Routes>
       <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />

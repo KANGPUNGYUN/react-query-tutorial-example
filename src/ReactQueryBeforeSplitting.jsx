@@ -69,7 +69,7 @@ export function ReactQuery() {
 
       <ul className="list-disc p-4">
         {/* {data &&
-          data.data?.items?.map((product) => (
+          data.data?.map((product) => (
             <li key={product.id}>
               {product.name} / {product.price}
             </li>
